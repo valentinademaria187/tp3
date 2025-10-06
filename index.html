@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En respuesta a las necesidades de Zara, proponemos el desarrollo de un sitio web moderno, atractivo y funcional que optimice la experiencia de compra en línea. El diseño estará alineado con la identidad visual de la marca, ofreciendo un entorno visual limpio y elegante, que refleje la moda de alta calidad que Zara representa. El sitio será completamente responsive, asegurando una experiencia fluida y adaptable en dispositivos móviles y de escritorio.
+
+    La arquitectura del sitio permitirá una navegación intuitiva, con filtros avanzados para la búsqueda de productos, categorías bien definidas y un proceso de pago ágil y seguro. Además, se incluirán secciones para promociones, colecciones especiales y un blog con contenido relevante sobre tendencias. Integraciones con redes sociales y métodos de pago internacionales garantizarán una experiencia de compra completa y eficiente, ampliando el alcance global de la tienda online.">
+    <meta name="keywords" content="tienda en línea, ropa de moda, Zara, ecommerce, compras online, diseño web responsivo, experiencia de usuario, tendencias de moda, colecciones exclusivas, productos de moda, carrito de compras, pago seguro, filtros de búsqueda, tienda de ropa, ecommerce de moda, moda femenina, moda masculina, ropa de calidad, promociones online, tienda virtual, integración de pagos, plataformas de pago, carrito de compras rápido, blog de moda, experiencia de compra, productos destacados, moda global, ropa trendy, interfaz intuitiva, tienda de ropa internacional.">
+    <meta name="author" content="Paulina Bittar y Valentina Demaría">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Zara Girls</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Zara Girls</h1>
+    </header>
+    <main class="row">
+        <div class="col-3">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex flex-column">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./vestidos.html">Vestidos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./remeras.html">Remeras</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="./jeans.html">Jeans</a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                </nav>
+        </div>
+        <section class="col-9">
+            <div class="row mb-5">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/vestidomarronporadelante.png" class="card-img-top" alt="Vestido marrón por adelante">
+                        <div class="card-body">
+                          <h5 class="card-title">Vestido marrón.</h5>
+                          <p class="card-text">Vestido marrón oscuro, cuello alto y sin mangas.</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vestidomarron">ver</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card " style="width: 18rem;">
+                        <img src="assets/vestidoamarillopordelante.png" class="card-img-top" alt="Vestido amarillo por adelante">
+                        <div class="card-body">
+                          <h5 class="card-title">Vestido amarillo</h5>
+                          <p class="card-text">Vestido amarillo pastel, corto, sin mangas, con corte en una pierna.</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vestidoamarillo">ver</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card " style="width: 18rem;">
+                        <img src="assets/vestidoVerdePorAdelante.png" class="card-img-top" alt="Vestido verde por adelante">
+                        <div class="card-body">
+                          <h5 class="card-title">Vestido verde.</h5>
+                          <p class="card-text">Vestido verde esmeralda, corto y suelto, lazo en el cuello.</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#vestidoVerde">ver</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/remeraBlancaAdelante.png" class="card-img-top" alt="Remera blanco por adelante">
+                        <div class="card-body">
+                          <h5 class="card-title">Remera blanca.</h5>
+                          <p class="card-text">Remera color hueso, sin mangas, con vuelos.</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#remeraBlanca">ver</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card " style="width: 18rem;">
+                        <img src="assets/remeraMarronAdelante.png" class="card-img-top" alt="Remera marrón por adelante">
+                        <div class="card-body">
+                          <h5 class="card-title">Remera bordo.</h5>
+                          <p class="card-text">Remera bordo, sin mangas, con lazo en el cuello.</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#remeraBordo">ver</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card " style="width: 18rem;">
+                        <img src="assets/remeraNegraAdelante.png" class="card-img-top" alt="Remera negra por adelante">
+                        <div class="card-body">
+                          <h5 class="card-title">Remera negra.</h5>
+                          <p class="card-text">Remera negra con encaje, cuello en 'V', musculosa.</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#remeraNegra">ver</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/jeanAdelante.png" class="card-img-top" alt="Jean básico adelante">
+                        <div class="card-body">
+                          <h5 class="card-title">Jean básico adelante</h5>
+                          <p class="card-text">Jean tiro alto, corte recto, azul gastado.</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#jeanBasico">ver</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card " style="width: 18rem;">
+                        <img src="assets/jean azul claro adelante.png" class="card-img-top" alt="Jean gris">
+                        <div class="card-body">
+                          <h5 class="card-title">Jean gris claro</h5>
+                          <p class="card-text">Jean gris claro, oversized, piernas anchas.</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#jeanAzulClaro">ver</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                    <div class="card " style="width: 18rem;">
+                        <img src="assets/jean azul oscuro adelante.png" class="card-img-top" alt="Jean oscuro">
+                        <div class="card-body">
+                          <h5 class="card-title">Jean azul oscuro</h5>
+                          <p class="card-text">Jean azul oscuro, desgastado, tiro bajo, ancho de piernas.</p>
+                          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#jeanAzulOscuro">ver</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="modal fade" id="vestidoVerde" tabindex="-1" aria-labelledby="vestidoVerde" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="vestidoVerde">Zara vestidos</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselOscuro" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./assets/vestidoVerdePorAdelante.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/vestidoVerdeAtras.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselOscuro" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselOscuro" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="modal fade" id="vestidoamarillo" tabindex="-1" aria-labelledby="vestidoamarillo" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="vestidoamarillo">Zara vestidos</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="carouselClaro" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./assets/vestidoamarillopordelante.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/vestidoamarilloporatras.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselClaro" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselClaro" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="vestidomarron" tabindex="-1" aria-labelledby="vestidomarron" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="vestidomarron">Zara vestidos</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselBasico" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./assets/vestidomarronporadelante.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/vestidoMarronAtras.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBasico" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselBasico" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+            </div>            
+            <div class="modal fade" id="jeanAzulOscuro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Zara remeras</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselOscuro" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./assets/remeraNegraAdelante.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/remeraNegraAtras.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselOscuro" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselOscuro" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="modal fade" id="jeanGris" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Zara remeras</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="carouselClaro" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./assets/remeraMarronAdelante.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/remeraMarronAtras.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselClaro" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselClaro" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="jeanBasico" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Zara remeras</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselBasico" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./assets/remeraBlancaAdelante.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/remeraBlancaAtras.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBasico" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselBasico" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="modal fade" id="jeanAzulOscuro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Zara jeans</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselOscuro" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./assets/jean azul oscuro adelante.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/jean azul oscuro atras.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselOscuro" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselOscuro" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="modal fade" id="jeanGris" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Zara jeans</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="carouselClaro" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./assets/jean azul claro adelante.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./assets/jean azul claro atras.png" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselClaro" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselClaro" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="jeanBasico" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Zara jeans</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselBasico" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./assets/jeanAdelante.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/jean atras.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBasico" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselBasico" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
